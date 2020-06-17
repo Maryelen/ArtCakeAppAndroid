@@ -1,3 +1,4 @@
+# ArtCakeAppAndroid
 Trabalho desenvolvido para a aula de Dispositivos Móveis.
 
 <li> Foi criado um app para solicitação de orçamento para a confeiteira. No app temos a opção de: ver a galeria de fotos dos bolos, a história da confeiteira e a opção de solicitar orçamento, onde é prenchido data do evento, quantidade de pessoas, o(s) sabor(es) escolhido(s) para o bolo, tipo de retirada e tema.
