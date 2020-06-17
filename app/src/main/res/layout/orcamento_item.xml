@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="373dp">
+
+        <TextView
+                android:id="@+id/orcamento_item_tipoBolo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Naked Cake" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp"/>
+
+        <TextView
+                android:id="@+id/orcamento_item_saborBolo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/orcamento_item_tipoBolo"
+                app:layout_constraintStart_toStartOf="@id/orcamento_item_tipoBolo"
+                app:layout_constraintTop_toBottomOf="@+id/orcamento_item_tipoBolo"
+                tools:text="Morango" app:layout_constraintHorizontal_bias="0.0"/>
+
+        <TextView
+                android:id="@+id/orcamento_item_temaBolo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/orcamento_item_saborBolo"
+                app:layout_constraintStart_toStartOf="@id/orcamento_item_saborBolo"
+                app:layout_constraintTop_toBottomOf="@+id/orcamento_item_saborBolo"
+                app:layout_constraintVertical_bias="0.037"
+                tools:text="Star Wars" app:layout_constraintHorizontal_bias="0.0"/>
+
+
+        <TextView
+                android:id="@+id/orcamento_item_qndtPessoas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/orcamento_item_temaBolo"
+                app:layout_constraintStart_toStartOf="@id/orcamento_item_temaBolo"
+                app:layout_constraintTop_toBottomOf="@+id/orcamento_item_temaBolo"
+                app:layout_constraintVertical_bias="0.026"
+                tools:text="100" app:layout_constraintHorizontal_bias="0.0"/>
+
+        <TextView
+                android:id="@+id/orcamento_item_retirarLocal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/orcamento_item_qndtPessoas"
+                app:layout_constraintStart_toStartOf="@id/orcamento_item_qndtPessoas"
+                app:layout_constraintTop_toBottomOf="@+id/orcamento_item_qndtPessoas"
+                app:layout_constraintVertical_bias="0.021"
+                tools:text="Não" app:layout_constraintHorizontal_bias="0.0"/>
+
+        <TextView
+                android:id="@+id/orcamento_item_dataEvento"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/orcamento_item_qndtPessoas"
+                app:layout_constraintStart_toStartOf="@id/orcamento_item_qndtPessoas"
+                app:layout_constraintTop_toBottomOf="@+id/orcamento_item_qndtPessoas"
+                app:layout_constraintVertical_bias="0.21"
+                tools:text="20/10/2018" app:layout_constraintHorizontal_bias="0.0"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
